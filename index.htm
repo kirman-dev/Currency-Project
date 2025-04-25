@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTER</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+    <nav>
+      <div class="container">
+          <div id="navbar">
+              <div class="img"><img
+                      src="https://s3-alpha-sig.figma.com/img/5e85/ba7e/2220b03c0726ae6807b6de824e538e46?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hjPSlESNFv8U7qmgslgIZG2yR8c6eZ8HEXfpwJ9RPSqiKXw2QPaCXV0a8qWl838RFQA158HzAF6ew8OCDCX3rrDfvbRjwGRyhi~par8xCT~Hi8l~2hD0~5ginuGrLeftXuimc1XfBuXMij55WhtwQSK2ptzZ0Thvls-fHTFWcAK-vYPOHfwMPuj-VIK5CDPnGUypZqtl88JOtVRIFlph5uE3U74CLXKFfEe~HKM40rQE5ZB8GgPcMoLDBZLr-br~Bvm5ayJyKxemfhihwQp-6B0z0u9sSG-aF08pTyEhd2RXdF389KTnnUB~bHz1bNiXTUqW9BE6LhJ39RAsdfj8SA__" />
+              </div>
+              <div id="list">
+                  <ul>
+                      <li><a href="#">BANK</a></li>
+                      <li><a href="#">BUSINESS</a></li>
+                      <li><a href="#">INVESTMENTS</a></li>
+                      <li><a href="#">INSURANCE</a></li>
+                      <li><a href="#">MOBILE</a></li>
+                      <li><a href="#">TRIPS</a></li>
+                      <li><a href="#">ENTERTAINMENT</a></li>
+                  </ul>
+              </div>
+              <div style="display: flex; align-items: center; gap: 30px;">
+                  <button class="login-button">LOGIN</button>
+                  <div class="hamburger-button"><i class="fi fi-rr-menu-burger"></i></div>
+              </div>
+          </div>
+      </div>
+    </nav>
+    <main>
+       <div class="container">
+         <h1>Online currency converter</h1>
+         <div class="wrapper">
+             <div class="left-wrapper">
+                 <div class="heading">I have</div>
+                 <div class="left-buttons">
+                     <button class="active">RUB</button>
+                     <button>USD</button>
+                     <button>EUR</button>
+                     <button>GBP</button>
+                 </div>
+                 <input type="text" class="left-input" placeholder="0">
+                 <div class="left-footer-wrapper"></div>
+             </div>
+             <div class="right-wrapper">
+                 <div class="heading">I want to buy</div>
+                 <div class="right-buttons">
+                     <button>RUB</button>
+                     <button class="active">USD</button>
+                     <button>EUR</button>
+                     <button>GBP</button>
+                 </div>
+                 <input type="text" class="right-input" placeholder="0">
+                 <div class="right-footer-wrapper"></div>
+             </div>
+         </div>
+         <div class="error-wrapper">You don't have network!</div>
+       </div>
+    </main>
+    <section class="hamburger-wrapper">
+        <ul id="hamburger-list">
+            <li><a href="#">BANK</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            <li><a href="#">INVESTMENTS</a></li>
+            <li><a href="#">INSURANCE</a></li>
+            <li><a href="#">MOBILE</a></li>
+            <li><a href="#">TRIPS</a></li>
+            <li><a href="#">ENTERTAINMENT</a></li>
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
